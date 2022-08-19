@@ -1,0 +1,29 @@
+.chat {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  max-width: 22em;
+  margin: 2em auto;
+  height: 100%;
+  min-height: 560px;
+
+  background: var(--white);
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.17);
+  border-radius: 1em;
+  padding: 0.8em;
+}
+
+header {
+  margin-bottom: 1em;
+  text-align: center;
+  padding-bottom: 0.5em;
+  border-bottom: 1px var(--dark-grey) solid;
+  color: var(--dark-grey);
+}
+
+main {
+  position: relative;
+  overflow: scroll;
+}

@@ -1,0 +1,46 @@
+.input-wrapper {
+  position: relative;
+  display: flex;
+  margin-top: 0.5em;
+}
+
+.input__text {
+  width: 100%;
+  height: 2.5em;
+  padding: 0.7em 3.5em 0.3em 1em;
+  background: var(--light-grey);
+  border-radius: 1em;
+  width: 100%;
+  outline: none;
+}
+
+.input__send-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 3em;
+  height: 2.5em;
+  background: var(--black);
+  border-radius: 0.5em;
+}
+
+.input__send-button:not(.disable) {
+  transition: opacity .3s;
+}
+
+.input__send-button:not(.disable):hover {
+  opacity: .7;
+}
+
+.input__send-button svg {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 0.5em;
+  left: 0.8em;
+}
+
+.disable {
+  background: var(--dark-grey);
+  cursor: inherit;
+}

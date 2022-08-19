@@ -1,0 +1,23 @@
+.receive {
+  background: var(--black);
+  color: var(--white);
+  padding: 0.5em 1em;
+  border-radius: 1em 1em 1em 0;
+  max-width: 80%;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.send {
+  background: var(--light-grey);
+  color: var(--black);
+  padding: 0.5em 1em;
+  border-radius: 1em 1em 0 1em;
+  max-width: 80%;
+  margin-left: auto;
+  width: fit-content;
+}
+
+.message + .message {
+  margin-top: .5em;
+}
