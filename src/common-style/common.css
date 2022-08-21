@@ -57,7 +57,14 @@ button::-moz-focus-inner {
 
 .window-wrapper {
   height: 22em;
-  overflow: scroll;
+  overflow-y: auto;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.window-wrapper::-webkit-scrollbar {
+  display: none;
 }
 
 .error {

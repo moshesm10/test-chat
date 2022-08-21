@@ -12,6 +12,7 @@
   border-radius: 1em;
   width: 100%;
   outline: none;
+  resize: none;
 }
 
 .input__send-button {
